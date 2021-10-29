@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (max-width:640px) {
+            div {
+                display: flex;
+                width: 590px;
+                height: 300px;
+                flex-wrap: wrap;
+
+            }
+
+            .four {
+                order: -1;
+                width: 200px;
+                height: 200px;
+                border: solid skyblue;
+                margin-right: 20px;
+            }
+
+            .one {
+                height: 120px;
+                width: 150px;
+                border-color: red;
+                margin-right: 20px;
+                border-style: solid;
+            }
+
+            .second {
+                width: 150px;
+                height: 100px;
+                border-color: red;
+                margin-right: 20px;
+                border-style: solid;
+            }
+
+            .three {
+                height: 40px;
+                width: 150px;
+                border-color: red;
+                margin-right: 20px;
+                border-style: solid;
+
+            }
+        }
+
+        @media screen and (min-width:640px) {
+
+
+
+
+            div {
+                display: flex;
+                width: 800px;
+                height: 600px;
+
+            }
+
+
+
+            .one {
+                height: 120px;
+                width: 150px;
+                border-color: red;
+                margin-right: 20px;
+                border-style: solid;
+                margin: auto;
+            }
+
+            .second {
+                width: 150px;
+                height: 100px;
+                border-color: red;
+                margin-right: 20px;
+                border-style: solid;
+                margin: auto;
+            }
+
+            .three {
+                height: 40px;
+                width: 150px;
+                border-color: red;
+                margin-right: 20px;
+                border-style: solid;
+                margin: auto;
+            }
+
+            .four {
+                width: 200px;
+                height: 200px;
+                border: solid skyblue;
+                margin: auto;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <span class="one">1</span>
+        <span class="second">2</span>
+        <span class="three">3</span>
+        <span class="four">4</span>
+    </div>
+</body>
+
+</html>
